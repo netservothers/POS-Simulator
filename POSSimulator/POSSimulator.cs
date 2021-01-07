@@ -7,6 +7,14 @@ namespace POSSimulator
     {
         #region Variable Declaration 
 
+        //private const string hexaDecimalFormat = "X2";
+
+        //private const string POSMessageSTX = "02";
+
+        //private const string POSMessageETX = "03";
+
+        //private const string POSMessageFS = "1C";
+
         #endregion
 
         public POSSimulator()
@@ -17,8 +25,8 @@ namespace POSSimulator
         #region Public Methods
 
         public string ProcessReadRequest(string input)
-        {
-            return "Hello World"; 
+        { 
+            return string.Empty;
         }
 
         #endregion
