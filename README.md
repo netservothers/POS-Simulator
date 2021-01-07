@@ -1,2 +1,2 @@
-# POS-Simulator
-POS Simulator 
+# POSSimulator
+ Simulation Code - Called in build application. 

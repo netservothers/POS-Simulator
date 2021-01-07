@@ -1,0 +1,12 @@
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\bin\Debug\netstandard2.0\POSSimulator.deps.json
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\bin\Debug\netstandard2.0\POSSimulator.dll
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\bin\Debug\netstandard2.0\POSSimulator.pdb
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\bin\Debug\netstandard2.0\POS_KIOSK_Payment_Plugin.dll
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\bin\Debug\netstandard2.0\XmlPaymentProcessor.dll
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\bin\Debug\netstandard2.0\GTSStringUtils.dll
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\obj\Debug\netstandard2.0\POSSimulator.csproj.CoreCompileInputs.cache
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\obj\Debug\netstandard2.0\POSSimulator.AssemblyInfoInputs.cache
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\obj\Debug\netstandard2.0\POSSimulator.AssemblyInfo.cs
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\obj\Debug\netstandard2.0\POSSimulator.csproj.CopyComplete
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\obj\Debug\netstandard2.0\POSSimulator.dll
+D:\Git Repository\POSSimulator\POSSimulator\POSSimulator\obj\Debug\netstandard2.0\POSSimulator.pdb

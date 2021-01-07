@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="POS_KIOSK_Payment_Plugin">
+      <HintPath>..\..\..\..\POS_KIOSK_Payment_Plugin\Documents\Version 6.5.18, 7.1.5.0 and up\POS_KIOSK_Payment_Plugin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
