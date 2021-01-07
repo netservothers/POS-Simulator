@@ -6,7 +6,6 @@ namespace POSSimulator
 {
     internal static class POSConstants
 	{
-
 		public const byte ControlByte_Ack = 0x06;
 		public const byte ControlByte_Comma = 0x2C;
 		public const byte ControlByte_Dle = 0x10;
@@ -27,11 +26,8 @@ namespace POSSimulator
 
 		public static readonly char[] ControlChars = new char[] { ControlChar_Ack, ControlChar_Comma, ControlChar_Dle, ControlChar_Enq, ControlChar_Etx, ControlChar_FieldSeparator, ControlChar_Nack, ControlChar_Stx };
 
-		public const string MessageType_Logon = "LOG";
-
-		public const string MessageType_Error = "ERR";
-		public const string MessageType_Purchase = "PUR";
-		public const string MessageType_Refund = "REF";
+		public const string MessageType_Purchase = "20";
+		public const string MessageType_Void = "26";
 
 		public const int Timeout_ReceiveAck_Milliseconds = 3000;
 		public const int Timeout_ReadResponse_Milliseconds = 60000;

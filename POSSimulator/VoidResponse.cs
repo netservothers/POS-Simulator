@@ -8,6 +8,6 @@ namespace POSSimulator
 	{
 		public VoidResponse(IList<string> fieldValues) : base(fieldValues) { }
 
-		public override string MessageType { get { return POSConstants.MessageType_Refund; } }
+		public override string MessageType { get { return POSConstants.MessageType_Void; } }
 	}
 }

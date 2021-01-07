@@ -10,10 +10,9 @@ namespace POSSimulator
 		{
 
 		}
- 
 		public override string RequestType
 		{
-			get { return POSConstants.MessageType_Refund; }
+			get { return POSConstants.MessageType_Void; }
 		}
 
 		public decimal Amount { get; set; }
