@@ -14,6 +14,16 @@ namespace POSSimulator
 		{
 			get;
 		}
-		
-	}
+
+        public abstract string MandatoryField
+        {
+            get;
+        }
+
+        public abstract string OptionalField
+        {
+            get;
+        }
+
+    }
 }

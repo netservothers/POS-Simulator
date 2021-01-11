@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POSSimulator
 {
-    internal static class POSConstants
+    public static class POSConstants
 	{
 		public const byte ControlByte_Ack = 0x06;
 		public const byte ControlByte_Comma = 0x2C;
@@ -29,7 +29,11 @@ namespace POSSimulator
 		public const string MessageType_Purchase = "20";
 		public const string MessageType_Void = "26";
 
-		public const int Timeout_ReceiveAck_Milliseconds = 3000;
+        public const string FieldType_Amount = "40";
+        public const string FieldType_AcquirerSelection = "74";
+        public const string FieldType_InvoiceNumber = "65";
+
+        public const int Timeout_ReceiveAck_Milliseconds = 3000;
 		public const int Timeout_ReadResponse_Milliseconds = 60000;
 		public const int Timeout_ClearInputBuffer_Milliseconds = 100;
 

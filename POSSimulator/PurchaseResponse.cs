@@ -10,7 +10,8 @@ namespace POSSimulator
 
 		public PurchaseResponse(IList<string> fieldValues) : base(fieldValues) { }
 
-		public override string MessageType { get { return POSConstants.MessageType_Purchase; } }
-		
-	}
+		public override string MessageType => POSConstants.MessageType_Purchase;
+
+
+    }
 }
