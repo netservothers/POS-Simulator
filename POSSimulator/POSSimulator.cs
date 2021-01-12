@@ -25,12 +25,12 @@ namespace POSSimulator
 
             if (RequestMessageInString.Substring(15, 2).ToString() == pOSPurchaseRequest.RequestType)
             {
-                return pOSPurchaseRequest.Validate(RequestMessageInString).ToString();
+                return BuildHexMessage(pOSPurchaseRequest.Validate(RequestMessageInString).ToString());
                 
             }
             else if (RequestMessageInString.Substring(15, 2).ToString() == voidRequest.RequestType)
             {
-                return voidRequest.Validate(RequestMessageInString).ToString();
+                return BuildHexMessage(voidRequest.Validate(RequestMessageInString).ToString());
 
             }
             return string.Empty;
@@ -49,6 +49,19 @@ namespace POSSimulator
                 sb.Append((char)Convert.ToByte(hexChar, 16));
             }
             return sb.ToString();
+        }
+
+        public string BuildHexMessage(string inputData)
+        {
+            try
+            {
+               return Byte.Parse(inputData).ToString();
+            }
+            catch
+            {
+                throw;
+            }
+
         }
 
         #endregion
